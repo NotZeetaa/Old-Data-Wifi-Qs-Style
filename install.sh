@@ -144,7 +144,6 @@ on_install() {
 
 set_permissions() {
   # The following is the default rule, DO NOT remove
-  set_perm_recursive $MODPATH 0 0 0755 0644
   set_perm_recursive $MODPATH/script 0 0 0755 0700
 
   # Here are some examples:
