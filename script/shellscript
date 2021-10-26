@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sleep 20
+
+su -c settings put secure sysui_qs_tiles “wifi,cell,$(settings get secure sysui_qs_tiles)
